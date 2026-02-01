@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CESCA | Front-End + UX</title>
+    <link rel="icon" href="../img/me_ver2.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="../img/me_ver2.png" type="image/x-icon" />
+    <script
+      src="https://kit.fontawesome.com/853406a8b3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+
+  <body>
+    <nav class="menu" id="siteNav">
+      <ul>
+        <li><a href="../index.html#workBody">Projects</a></li>
+        <li><a href="../mystory.html">About Me</a></li>
+         <li><a href="../ResumeAugust2025.pdf">Resume</a></li>
+    </nav>
+
+    <div id="projSect">
+      <div class="projMain">
+        <div class="projTitle">
+          <h3>The American Tradition</h3>
+          <h4 class="subTitle"><br />(NODE.JS / MONGODB / NEXT.JS / TAILWIND)</h4>
+        </div>
+        <div class="projGrid">
+          <div class="flexCell">
+            <div class="imgBox_oneCell">
+              <img src="../img/american-trad-img1.png" />
+            </div>
+            <p>The search page of the web app.</p>
+          </div>
+          <h5 class="no-top-space">Project Overview</h5>
+          <p>
+            In this web app, users can explore school shooting incidents across the U.S. through a searchable database and data visualizations.
+            This project uses publicly available data from David Riedman’s K–12 School Shooting Database.
+          </p>
+          <div class="btnBox">
+            <button data-link="https://the-american-tradition.vercel.app/">
+              See Live
+            </button>
+            <button data-link="https://github.com/cescaa/the_american_tradition">
+             GitHub <i class="fa-brands fa-github-alt"></i>
+            </button>
+        
+            <a href="#ux" style="border: none;">
+            <button data-link="#">
+              UX Case Study <i class="fa-solid fa-arrow-down"></i>
+            </button></a>
+          </div>
+     <h5>My Role</h5>
+          <ul>
+            <li>UX/UI Designer</li>
+            <li>
+              Full-Stack Developer
+            </li>
+          <h5>Tools and Languages</h5>
+          <ul>
+            <li>Figma</li>
+            <li>Node.js</li>
+            <li>Next.js</li>
+            <li>React</li>
+            <li>Tailwind CSS</li>
+            <li>MongoDB</li>
+          </ul>
+           <h5>Key Features</h5>
+          <ul>
+            <li>Learn about gun violence in America by searching through a database of school shooting incidents</li>
+            <li>
+              Filter incidents by state, date, and number of victims
+            </li>
+            <li>
+              Select an incident to reveal detailed information, like location and incident summary
+            </li>
+            <li>Analyze trends over time with a line graph showing the rise in school shootings</li>
+            </ul>
+            <div class="ux-header" id="ux">
+            <h4 class="subTitle">UX Case Study</h4>
+            </div>
+            <h5>Project Motivation & Context</h5>
+            <p>This project was created during a period of heightened public attention around school shootings in the United States, following an incident in the summer of 2025 that reinforced the severity of gun violence in spaces traditionally considered safe.
+              </p><p>
+While high-level statistics are widely available, it remains difficult to explore individual incidents in a searchable way. This project was motivated by the need to support deeper understanding at an individual level and encourage reflection and engagement with an ongoing American issue.
+            </p>
+            <h5>Problem Definition</h5>
+            <p>Existing public resources on American school shootings focus on high-level statistics and data visualizations. They lack centralized access to detailed information of individual incidents. Exploring specific cases is necessary to examine the nuances that are lost in aggregated data, and it allows users to develop a more comprehensive understanding of the issue.</p>
+          
+            <h5>Audience</h5>
+            <p>This project is designed for people who want to understand the reality of school shootings in the United States beyond headlines, including those who may lack awareness into the frequency and normalization of these incidents.</p>
+            <h5>Constraints</h5>
+            <ul>
+              <li>Sensitive subject matter requiring responsible design</li>
+              <li>Limited access to primary user research and testing</li>
+               <li>Inconsistent and incomplete public dataset (from David Reidman's K-12 School Shooting Database)</li>
+            </ul>
+            <h5>Process & Design Decisions</h5>
+            <p>The project followed an iterative, research-based design process. In the absence of <i>primary</i> user research, decisions were guided by established UX heuristics and accessibility standards.</p>
+            <h6>Establishing a point of view early</h6>
+            <p>I wanted to be clear about my position from the start: school shootings are a uniquely American problem. The opening title, imagery, and data visualizations make that claim immediately visible.
+           </p>
+           <p>
+            I also didn’t want to mislead users into thinking this project is a purely neutral or objective data resource. While the data itself is factual, the project was created with advocacy in mind. Making that stance clear upfront felt important, especially for users who may be looking for an academic or fully objective dataset.
+            </p>
+            <h6>Symbolism over graphic imagery</h6>
+            <p>I avoided graphic imagery to remain respectful toward victims and affected communities, choosing instead to let the emotional weight of the project come from the data itself. I selected a stock image depicting a student participating in a lockdown drill to reflect the normalization of school violence, without directly showing harm.
+              </p>
+              <p>
+To convey gravity and encourage reflection, I cropped the image in an arc shape. Its symbolism allowed me to acknowledge loss and seriousness without depicting violence or exploiting trauma.
+</p>
+<h6>Using colour to signal context</h6>
+<p>I based the colour palette on American colours to reinforce the national context of the data, since the incidents are specific to the United States. I chose darker, muted shades to reflect the seriousness and sombreness of the issue.
+This approach allowed the interface to signal cultural context without evoking patriotism or celebration.</p>
+<h6>Broad filters over detailed victim counts</h6>
+<p>I avoided detailed victim-count filters because I didn’t want incidents to be compared by death toll.
+  Every incident represents harm, regardless of how many people were killed. I didn’t want the design to suggest that one incident is more meaningful than another because of the number of fatalities.
+</p>
+<h6>Neutral icons for sensitive data</h6>
+<p>For highly sensitive data points, I avoided expressive icons (e.g. skull, dove, gun, etc.) to prevent gamification or aestheticizing harm. Neutral symbols present the data respectfully.</p>
+            <h5>Current Project State</h5>
+            <p>
+  This project is still in progress. While essential data searching features have been implemented, the landing page and resources page are still being expanded.
+</p>
+            <h5>Next Steps</h5>
+            <ol>
+              <li>Include more data visualizations to provide users a more cohesive understanding of the issue.</li>
+              <li>Add a resources page to credit data sources and help users explore additional information and learn more.</li>
+              <li>Add sorting options to improve how users navigate and scan search results.</li>
+            </ol>
+            <div class="flexCell">
+            <div class="imgBox_oneCell">
+              <img src="../img/american-trad-img2.png" />
+            </div>
+            <p>Homepage</p>
+          </div>
+          <!--
+          <div class="flexCell">
+            <div class="imgBox_oneCell">
+              <img src="../img/who_win.png" />
+            </div>
+            <p>The screen when the player wins.</p>
+          </div>
+          <div class="flexCell">
+            <div class="imgBox_oneCell">
+              <img src="../img/who_lost.png" />
+            </div>
+            <p>The screen when the player loses.</p>
+          </div>
+          -->
+        </div>
+      </div>
+    </div>
+    <script src="../script.js"></script>
+  </body>
+</html>

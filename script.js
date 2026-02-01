@@ -22,12 +22,12 @@ const colourButtons = (buttonType, hasReverse = false) => {
     function moveDown() {
       if (buttonType != menuItems) {
         if (!isMoved) {
-          cell.style.transform = "translate(-3px, -3px)";
-          cell.style.boxShadow = "none";
-          cell.style.border = "2.5px solid #3f3f3f";
+          //cell.style.transform = "translate(-3px, -3px)";
+          //cell.style.boxShadow = "none";
+          //cell.style.border = "2.5px solid #3f3f3f";
           isMoved = true;
         } else {
-          cell.style.transform = "translate(0)";
+          //cell.style.transform = "translate(0)";
           isMoved = false;
         }
       }
